@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  public myMenu = 'recipes';
+  
+  onNavigate(menuSelected:string){
+    this.myMenu = menuSelected;
+  }
+
+  
+  
 }
